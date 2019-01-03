@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from './wrapper'
 import Cart from './cart'
-import StoreSection from "./storeSection";
+import StoreSection from './storeSection'
 
 const defaultStore = {
   category: "Empty Store",
