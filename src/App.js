@@ -1,18 +1,9 @@
-import React from 'react'
-import './App.css'
+import React from "react";
+import "./App.css";
 import StoreHome from "./components/storeHome";
 
 const App = () => {
-  return (
-    <StoreHome/>
-  )
+  return <StoreHome />;
 };
 
-export default App
-
-
-
-
-
-
-
+export default App;

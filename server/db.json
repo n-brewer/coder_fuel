@@ -1,0 +1,103 @@
+{
+  "store": [
+    {
+      "category": "Coding Needs",
+      "items": [
+        {
+          "name": "Ear Plugs (20 pack)",
+          "cost": 0.98,
+          "inStock": true,
+          "imgId": 80
+        },
+        {
+          "name": "Wireless Headphones",
+          "cost": 120.0,
+          "inStock": true,
+          "imgId": 81
+        }
+      ]
+    },
+    {
+      "category": "Electronics",
+      "items": [
+        {
+          "name": "iPod Touch",
+          "cost": 150.0,
+          "inStock": true,
+          "imgId": 7
+        },
+        {
+          "name": "MacBook Pro",
+          "cost": 2000.0,
+          "inStock": true,
+          "imgId": 0
+        },
+        {
+          "name": "iLaser",
+          "cost": 90000.0,
+          "inStock": false,
+          "imgId": 11
+        }
+      ]
+    },
+    {
+      "category": "Beverages",
+      "items": [
+        {
+          "name": "RockStar",
+          "cost": 1.5,
+          "inStock": true,
+          "imgId": 10
+        },
+        {
+          "name": "Monster",
+          "cost": 2.0,
+          "inStock": true,
+          "imgId": 93
+        },
+        {
+          "name": "Water",
+          "cost": 1.25,
+          "inStock": true,
+          "imgId": 18
+        },
+        {
+          "name": "Vitamin Water",
+          "cost": 1.5,
+          "inStock": true,
+          "imgId": 16
+        },
+        {
+          "name": "Energy Blast",
+          "cost": 2.0,
+          "inStock": false,
+          "imgId": 83
+        },
+        {
+          "name": "Brain Drink",
+          "cost": 5.25,
+          "inStock": true,
+          "imgId": 78
+        },
+        {
+          "name": "Berry Fusion",
+          "cost": 2.5,
+          "inStock": true,
+          "imgId": 17
+        },
+        {
+          "name": "Green Tea",
+          "cost": 1.0,
+          "inStock": false,
+          "imgId": 77
+        },
+        {
+          "name": "Muscle Fuel",
+          "cost": 3.25,
+          "inStock": true,
+          "imgId": 79
+        }
+      ]
+    }
+  ]
+}

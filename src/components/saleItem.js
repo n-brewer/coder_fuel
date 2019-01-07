@@ -1,33 +1,30 @@
-import React from 'react'
+import React from "react";
+import { URL } from "../utils/constants";
 
 const SaleItem = props => {
-  const {name, cost, inStock, imgId} = props.item;
+  const { name, cost, inStock, imgId } = props.item;
   return (
     <div className={"saleItem"}>
-      <ItemImage imgId={imgId}/>
+      <div className={"imgContainer"}>
+        <img alt="" src={URL.IMAGE_SALE_ITEM + imgId} />
+      </div>
       <div className={"itemInfo"}>
-        <div>
+        <>
           <span>{name}</span>
           {!inStock && <div className={"stock"}>Out of Stock</div>}
-        </div>
-        <div>
-          ${cost.toFixed(2)}
-        </div>
-        <div>
-          <button onClick={() => props.itemClicked(props.item)}
-                  disabled={!inStock}>Add To Cart</button>
-        </div>
+        </>
+        <div>${cost.toFixed(2)}</div>
+        <>
+          <button
+            onClick={() => props.itemClicked(props.item)}
+            disabled={!inStock}
+          >
+            Add To Cart
+          </button>
+        </>
       </div>
     </div>
-  )
+  );
 };
 
-export default SaleItem
-
-const ItemImage = props => {
-  return (
-    <div className={"imgContainer"}>
-      <img alt='' src={`https://picsum.photos/120/?image=${props.imgId}`}/>
-    </div>
-  )
-};
+export default SaleItem;
